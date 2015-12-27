@@ -2,8 +2,6 @@
 
 ### A Collection of Dockerized Open Source Network Monitoring, Performance and Management Related Tools
 
-
-
 There are some great networking tools out there. The challenge is they often have some finicky dependencies or are for a specific platform or OS. Network routers and switches are becoming more and more like servers, this will include the ability to run Docker on switches. 
 
 In order to take advantage of the ability to start managing networks with similar tools used in other distributed systems. We are using Docker to learn new applications and share them with the networking community. Please don't hesitate to jump in and contribute. See the bottom of the page for how to contribute!
@@ -16,51 +14,24 @@ This is intended for folks interested in networks and there are no knowledge pre
 
 **Docker Compose**: *(Optional)* Some of the examples may use Docker Compose for multi-container (multi-process) applications stacks. Docker Toolbox is the easiest way to install all of the Docker tools for your environment using these [instructions for Windows or Mac](https://www.docker.com/docker-toolbox). For Linux see [here](https://docs.docker.com/compose/install/).
 
-### nmap
+### Tools and Examples for Getting Started
 
-Nmap is a perennial favorite for security fuzzing.
+Below are links to each tools directory in this repository with an example Dockerfile and usage.
 
-*Example NMAP Usage:*
+* [fping](https://github.com/gopher-net/dockerized-net-tools/tree/master/fping) - tool for measuring latency, status and all around ping on steroids. 
 
-* Scan a single host for all open TCP ports with `-sS` (TCP SYN scan) 
+* [iperf](https://github.com/gopher-net/dockerized-net-tools/tree/master/iperf) - extremely versatile tool for measuring network bandwidth and performance. 
 
-```
-$ docker run -it --rm networkstatic/nmap -sT 192.168.1.1
-```
+* [nmap](https://github.com/gopher-net/dockerized-net-tools/tree/master/nmap) - security scanner, port scanner and network discovery tool
 
-* Scan for open ssh (tcp/22) ports on a range of IPs.
+### Network Hardware Vendor Docker Support
 
-```
-$ docker run -it --rm networkstatic/nmap -sS 192.168.1.1-100 -p 22
-```
+We will track and link to the network vendors supporting Docker and this method of tooling for network ops/dev.
 
-* As with most of the apps listed, add `--help` to view additional options.
-
-```
-$ docker run -it --rm networkstatic/nmap --help
-```
-
-### fping
-
-[Fping](http://fping.org/fping.1.html) for network testing. It's ping on steroids.
-
-*Example Fping Usage:*
-
-* View the help options
-
-```
-$ docker run -it --rm networkstatic/fping -help
-```
-
-* Ping a range of IP addresses
-
-```
-$ docker run -it --rm networkstatic/fping echo 10.1.5.{1,2,3,4,5} | fmt -1 | fping
-```
-
+* Vendors Coming Soon...
 
 ### Contributing to the Net Tools List
 
 Please do a pull request with your additions of tools. They don't have to be tools you created or maintain, simply add apps and show how to use it with Docker for simplicity. 
 
-If you have any questions about how to do a [pull request](https://help.github.com/articles/using-pull-requests/) please open an [issue](https://github.com/gopher-net/dockerized-net-tools/issues) for assistance. This is here for networking professionals to learn, as such there are no bad questions and no jerks allowed :-) If you find a bug or typo you can either patch it with a pull request (PR) or open a bug in issues.
+If you have any questions about how to do a [pull request](https://help.github.com/articles/using-pull-requests/) please open an [issue](https://github.com/gopher-net/dockerized-net-tools/issues) for assistance. This is here for networking professionals and network devs to explore, learn and innovate. As such there are no bad questions and no jerks allowed :-) If you find a bug or typo you can either patch it with a pull request (PR) or open a bug in issues.
