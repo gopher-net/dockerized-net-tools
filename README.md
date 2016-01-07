@@ -18,11 +18,19 @@ This is intended for folks interested in networks and there are no knowledge pre
 
 Below are links to each tools directory in this repository with an example Dockerfile and usage.
 
+* [drill](http://www.nlnetlabs.nl/projects/ldns/) is a tool from `ldns` that is a replacement for `dig`.
+
 * [fping](https://github.com/gopher-net/dockerized-net-tools/tree/master/fping) - tool for measuring latency, status and all around ping on steroids. 
 
 * [iperf](https://github.com/gopher-net/dockerized-net-tools/tree/master/iperf) - extremely versatile tool for measuring network bandwidth and performance. 
 
+* [mz](http://www.perihel.at/sec/mz/mzguide.html) Mausezahn is a fast traffic generator written in C which allows you to send nearly every possible and impossible packet.
+
 * [nmap](https://github.com/gopher-net/dockerized-net-tools/tree/master/nmap) - security scanner, port scanner and network discovery tool
+
+* [netcat](https://github.com/gopher-net/dockerized-net-tools/tree/master/nmap) - security scanner, port scanner and network discovery tool
+
+* [traceroute](http://manpages.ubuntu.com/manpages/jaunty/man8/traceroute-nanog.genuine.8.html) print the route that IP packets traverse going to a remote host.
 
 ### Network Hardware Vendor Docker Support
 
