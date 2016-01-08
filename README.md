@@ -18,19 +18,24 @@ This is intended for folks interested in networks and there are no knowledge pre
 
 Below are links to each tools directory in this repository with an example Dockerfile and usage.
 
-* [drill](http://www.nlnetlabs.nl/projects/ldns/) is a tool from `ldns` that is a replacement for `dig`.
+* [drill](https://github.com/gopher-net/dockerized-net-tools/tree/master/drill) is a tool from `ldns` that is a replacement for `dig`.
 
 * [fping](https://github.com/gopher-net/dockerized-net-tools/tree/master/fping) - tool for measuring latency, status and all around ping on steroids. 
 
-* [iperf](https://github.com/gopher-net/dockerized-net-tools/tree/master/iperf) - extremely versatile tool for measuring network bandwidth and performance. 
+* [hping](https://github.com/gopher-net/dockerized-net-tools/tree/master/hping) is useful for both scanning networks and crafting packets.
 
-* [mz](http://www.perihel.at/sec/mz/mzguide.html) Mausezahn is a fast traffic generator written in C which allows you to send nearly every possible and impossible packet.
+* [iperf](https://github.com/gopher-net/dockerized-net-tools/tree/master/mz) - extremely versatile tool for measuring network bandwidth and performance. 
+
+* [mz](https://github.com/gopher-net/dockerized-net-tools/tree/master/mz) Mausezahn is a fast traffic generator which allows you to send nearly any kind of packet.
 
 * [nmap](https://github.com/gopher-net/dockerized-net-tools/tree/master/nmap) - security scanner, port scanner and network discovery tool
 
-* [netcat](https://github.com/gopher-net/dockerized-net-tools/tree/master/nmap) - security scanner, port scanner and network discovery tool
+* [netcat](https://github.com/gopher-net/dockerized-net-tools/tree/master/netcat) - security scanner, port scanner and network discovery tool
 
-* [traceroute](http://manpages.ubuntu.com/manpages/jaunty/man8/traceroute-nanog.genuine.8.html) print the route that IP packets traverse going to a remote host.
+* [netflow generator](https://github.com/gopher-net/dockerized-net-tools/tree/master/netflow-generator) - generate generic NetFlow data and send it to the specified IP/Port of the NetFlow collector.
+
+* [traceroute](https://github.com/gopher-net/dockerized-net-tools/tree/master/traceroute) print the route that IP packets traverse going to a remote host.
+
 
 ### Network Hardware Vendor Docker Support
 
