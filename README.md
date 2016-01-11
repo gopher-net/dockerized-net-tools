@@ -12,7 +12,7 @@ This is intended for folks interested in networks and there are no knowledge pre
 
 **Docker Engine**: This is the base Docker component. Simply install Docker engine for your target OS with these [instructions](https://docs.docker.com/engine/installation/). A quick install for Linux is `curl -sSL https://get.docker.com/ | sh` or using wget with `wget -qO- https://get.docker.com/ | sh` that executes this script [here](https://get.docker.com). 
 
-**Docker Compose**: *(Optional)* Some of the examples may use Docker Compose for multi-container (multi-process) applications stacks. Docker Toolbox is the easiest way to install all of the Docker tools for your environment using these [instructions for Windows or Mac](https://www.docker.com/docker-toolbox). For Linux see [here](https://docs.docker.com/compose/install/).
+**Docker Toolbox (Easiest for Mac/Win)**: will install all of the relevant [Docker Tools](https://www.docker.com/docker-toolbox).
 
 ### Tools and Examples for Getting Started
 
@@ -36,6 +36,7 @@ Below are links to each tools directory in this repository with an example Docke
 
 * [traceroute](https://github.com/gopher-net/dockerized-net-tools/tree/master/traceroute) print the route that IP packets traverse going to a remote host.
 
+* [traceroute6](https://github.com/gopher-net/dockerized-net-tools/tree/master/traceroute6) print the route IPv6 packets will take to a network node.
 
 ### Network Hardware Vendor Docker Support
 
