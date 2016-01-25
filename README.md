@@ -42,7 +42,7 @@ Below are links to each tools directory in this repository with an example Docke
 
 We will track and link to the network vendors supporting Docker and this method of tooling for network ops/dev.
 
-* Vendors Coming Soon...
+* [Arista Networks](http://www.arista.com)
 
 ### Contributing to the Net Tools List
 
