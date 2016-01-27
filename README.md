@@ -34,6 +34,8 @@ Below are links to each tools directory in this repository with an example Docke
 
 * [netflow generator](https://github.com/gopher-net/dockerized-net-tools/tree/master/netflow-generator) - generate generic NetFlow data and send it to the specified IP/Port of the NetFlow collector.
 
+* [sflowtool generator](https://github.com/gopher-net/dockerized-net-tools/tree/master/sflowtool) - sflow collector
+
 * [traceroute](https://github.com/gopher-net/dockerized-net-tools/tree/master/traceroute) print the route that IP packets traverse going to a remote host.
 
 * [traceroute6](https://github.com/gopher-net/dockerized-net-tools/tree/master/traceroute6) print the route IPv6 packets will take to a network node.
