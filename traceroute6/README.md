@@ -4,7 +4,7 @@
 [traceroute6](http://manpages.ubuntu.com/manpages/oneiric/man8/traceroute6.iputils.8.html) - traces path to an IPv6 network node.
 
 ```
-$ docker run -it --rm gopher-net/traceroute6
+$ docker run -it --rm gophernet/traceroute6
 
 BusyBox v1.24.1 (2015-12-08 16:43:56 UTC) multi-call binary.
 

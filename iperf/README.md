@@ -7,13 +7,13 @@
 * Run the server on one node.  You will need to expose a port and make note of the IP address of the host.
 
 ```
-$ docker pull fredhsu/iperf-server
-$ docker run -p 5001:5001 fredhsu/iperf-server 
+$ docker pull gophernet/iperf-server
+$ docker run -p 5001:5001 gophernet/iperf-server 
 ```
 
 * Run the client on another node
 
 ```
-$ docker pull fredhsu/iperf-client
-$ docker run fredhsu/iperf-client <ip addr of the server node>
+$ docker pull gophernet/iperf-client
+$ docker run gophernet/iperf-client <ip addr of the server node>
 ```

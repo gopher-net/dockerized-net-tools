@@ -1,4 +1,4 @@
-# traceroute6 usage: docker run -it --rm gopher-net/traceroute6
+# traceroute6 usage: docker run -it --rm gophernet/traceroute6
 
 FROM alpine:latest
 

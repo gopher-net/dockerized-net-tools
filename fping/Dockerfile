@@ -8,7 +8,7 @@ FROM alpine:latest
 MAINTAINER Brent Salisbury <brent.salisbury@gmail.com>
 
 # build initial cache | install binary | remove cache
-RUN RUN apk update && apk add \
+RUN apk update && apk add \
 	fping \
 	&& rm -rf /var/cache/apk/*
 
