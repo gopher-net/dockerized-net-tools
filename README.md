@@ -8,7 +8,9 @@ In order to take advantage of the ability to start managing networks with simila
 
 ### Pre-Requisites
 
-This is intended for folks interested in networks and there are no knowledge pre-requisites. If totally new to Docker or virtualization in general it may help to take a look at the free [Docker Training](https://training.docker.com) via Docker inc.
+- This is intended for folks interested in networks and there are no knowledge pre-requisites. If totally new to Docker or virtualization in general it may help to take a look at the free [Docker Training](https://training.docker.com) via Docker inc.
+
+- There is a 10 minute tutorial in this repository that will give you a simple overview of running containers and building your own image in the [docker-tutorial](https://github.com/gopher-net/dockerized-net-tools/tree/master/docker-tutorial) directory.
 
 **Docker Engine**: This is the base Docker component. Simply install Docker engine for your target OS with these [instructions](https://docs.docker.com/engine/installation/). A quick install for Linux is `curl -sSL https://get.docker.com/ | sh` or using wget with `wget -qO- https://get.docker.com/ | sh` that executes this script [here](https://get.docker.com). 
 

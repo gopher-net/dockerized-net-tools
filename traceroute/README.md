@@ -6,7 +6,7 @@
 Have you ever been on a system or a network switch and noticed there is some proprietary `ping` or `traceroute` without any of the options you need? Well, we have :p so lets get basic with traceroute> 
 
 ```
-$ docker run -it --rm gopher-net/traceroute
+$ docker run -it --rm gophernet/traceroute
 
 Usage: traceroute [-46FIlnrv] [-f 1ST_TTL] [-m MAXTTL] [-q PROBES] [-p PORT]
 	[-t TOS] [-w WAIT_SEC] [-g GATEWAY] [-s SRC_IP] [-i IFACE]
@@ -36,7 +36,7 @@ Trace the route to HOST
 Example Usage with a target site (github.com):
 
 ```
-$ docker run -it --rm gopher-net/traceroute github.com
+$ docker run -it --rm gophernet/traceroute github.com
 
 traceroute to github.com (192.30.252.131), 30 hops max, 46 byte packets
  1  172.17.0.1 (172.17.0.1)  0.005 ms  0.004 ms  0.001 ms
