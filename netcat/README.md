@@ -6,7 +6,7 @@
 Start a listener and map a port to be connected to from another container or host (-p 9000:9000 will port forward e.g. NAT the container to the host OS IP address):
 
 ```
-$ docker run -it --rm  -p 9000:9000 gophernet/netcat -l 9000
+$ docker run -it --rm  -p 9000:9000 gophernet/netcat -l -p 9000
 ```
 
 Get the IP of the docker instance:
