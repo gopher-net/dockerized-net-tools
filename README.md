@@ -26,7 +26,7 @@ Below are links to each tools directory in this repository with an example Docke
 
 * [hping](https://github.com/gopher-net/dockerized-net-tools/tree/master/hping) is useful for both scanning networks and crafting packets.
 
-* [iperf](https://github.com/gopher-net/dockerized-net-tools/tree/master/mz) - extremely versatile tool for measuring network bandwidth and performance. 
+* [iperf](https://github.com/gopher-net/dockerized-net-tools/tree/master/iperf) - extremely versatile tool for measuring network bandwidth and performance. 
 
 * [mz](https://github.com/gopher-net/dockerized-net-tools/tree/master/mz) Mausezahn is a fast traffic generator which allows you to send nearly any kind of packet.
 
